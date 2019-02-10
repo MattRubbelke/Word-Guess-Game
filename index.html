@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+    <h1>RuPaul's Drag Race HangKween</h1>
+
+    <div id="imagePlaceholder">
+        <img id="queen" src=assets\images\rupaul.jpg>
+    </div>
+    <div id="hangman">
+        <div>
+            <h3>Guess the first name of drag queen by pressing the keys on your keyboard! The image on the left is your hint!</h3>
+        </div>
+        <div>
+            <h3 id="wins">Wins: 0</h3>
+        </div>
+        <div>
+            <h3 id="currentWord">Current Word:</h3>
+
+            <p id="emptyLetters"></p>
+        </div>
+
+        <div>
+            <h3 id="guessesLeft">Number of Guesses Remaining: </h3>
+        </div>
+        <div>
+            <h3 id="lettersGuessed"></h3>
+        </div>
+        
+
+    </div>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
